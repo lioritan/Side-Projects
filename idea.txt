@@ -21,6 +21,8 @@ Want to try out(high->low):
 -deep learning with NLP using encoding schemes? and mby can expand for active case+have learning rate depend on number of examples...
 -cognitive systems, IBM watson
 
+-deeep learning as feature generation, mby try deep learning with relational data mixed in somehow?
+
 Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
 -methods of collective classification(semi-supervised learning)-especially when both partial links and partial tagging. RDF data has graph-based kernels (markov logic? markov/bayes networks mby enough?)
