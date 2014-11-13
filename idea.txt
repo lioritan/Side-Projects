@@ -8,27 +8,24 @@ Want to try out(high->low):
 -reinforcment learning(fit agent to enviroment+task, get feedback from enviroment, repeat)
 -cognitive systems, IBM watson
 
--some kind of NLP approximate recall using neural memory(hopefield net/Restricted boltzman net?)? (can correct errors and use context to improve recall?)
--create edges only where k size window has both words, with strength=num_co_appear? 
--When run, use k size window as initial and converge to some memory=concept?
--this is basically what shaul and evgeny did but complicated and silly...
-
 -NLP understanding: creating and linking concepts using texts(differing confidence?) and core concepts(biology?)
 -How to create good concepts and good linking relations?+how to defer concept until better understand or refine?
--Can mby combine with ESA(download from Evgeny webpage link to implementations) for deep understanding(could look at word, word+2 nearest, then 4 nearest and so on until sentence)
+-Can mby combine with ESA(download from Evgeny webpage link to implementations) for deep understanding(could look at word, word+2 nearest, then 4 nearest and so on until sentence. this is like POS tagging)
 -information extraction? open IE? (isn't this basically it in concept?)(parse(can get away with rougher parsing)+coreference of words)
 -freebase knowledge graph+open linked data
 -deep learning with NLP using encoding schemes? and mby can expand for active case+have learning rate depend on number of examples...
 -cognitive systems, IBM watson
 
--deeep learning as feature generation, mby try deep learning with relational data mixed in somehow?
+-deeep learning(Neural nets, belief nets, boltzman) as feature generation, mby try deep learning with relational data mixed in somehow?
+
+-extending my work for handeling general set-valued features? seems like a mostly natural expansion...
 
 Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
 -methods of collective classification(semi-supervised learning)-especially when both partial links and partial tagging. RDF data has graph-based kernels (markov logic? markov/bayes networks mby enough?)
--Deep learning with other weight schemes(not convolution/full connect)(dropout zeros some fraction of the weights and helps generalize so mby)? 
+-Deep learning with other weight schemes(not convolution/full connect)(dropout zeros some fraction of the weights and helps generalize so mby)? also other transforms?
 -One examplar Deep learning neural nets that do well? mby after already trained on some known classes and got a new one(semi-online)? or maybe train on unlabled data then get single labeled example and extrapolate well from it.
--Asymetry in mapping: learn one representation and classify with another one such that the inner product is the similarity?
+-Asymetry in mapping: learn one representation and classify with another one such that the inner product is the similarity? see nati paper
 -probabalistic models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? what do I do with this info in my life?
 -self customizing google search(done by enriching query on client side? must be client side because big data too big)->see keyboards that learn style/correct such as swiftkey,swype(dragon engine),fleksy
 -can learning in batches of labeled be better than giving everything all at once?-this is almost certainly theoretically impossible...
