@@ -10,7 +10,7 @@ Want to try out(high->low):
 
 -NLP understanding: creating and linking concepts using texts(differing confidence?) and core concepts(biology?)
 -How to create good concepts and good linking relations?+how to defer concept until better understand or refine?
--Can mby combine with ESA(download from Evgeny webpage link to implementations) for deep understanding(could look at word, word+2 nearest, then 4 nearest and so on until sentence. this is like POS tagging)
+-Can mby combine with ESA(download from Evgeny webpage link to implementations) for deep understanding(could look at word, word+2 nearest, then 4 nearest and so on until sentence(contextual features). this is like POS tagging(HMM) and somewhat like NER(log linear model) )
 -information extraction? open IE? (isn't this basically it in concept?)(parse(can get away with rougher parsing)+coreference of words)
 -freebase knowledge graph+open linked data
 -deep learning with NLP using encoding schemes? and mby can expand for active case+have learning rate depend on number of examples... mby have some kind of stream model for classification?
@@ -32,3 +32,5 @@ Minor stuff:
 -some kind of semi-formal theory for semi-supervised learning? no tags->clustering, 1 tag per class->named+better clustering. 2 per class->???
 -augumented reality-identifying people
 -learning heuristic for Go? separate by phase,strategy and calc value of each square?
+- axiomatic approach for system design(tennenholtz): good application to planning or learning?
+-auto music composition from humming? different tools?
