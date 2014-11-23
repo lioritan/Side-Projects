@@ -24,12 +24,12 @@ Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
 -methods of collective classification(semi-supervised learning)-especially when both partial links and partial tagging. RDF data has graph-based kernels (markov logic? markov/bayes networks mby enough?)
 -Deep learning with other weight schemes(not convolution/full connect)(dropout zeros some fraction of the weights and helps generalize so mby)? also other transforms?
--One/low examplar Deep learning neural nets that do well? mby after already trained on some known classes and got a new one(semi-online)? or maybe train on unlabled data then get single labeled example and extrapolate well from it. mby need eta as function of #{examples of same class}->rapid increase in adoption
+-One/low examplar Deep learning neural nets that do well? mby after already trained on some known classes and got a new one(semi-online)? or maybe train on unlabled data then get single labeled example and extrapolate well from it. mby need eta as function of #{examples of same class}->rapid increase in adoption. 
 -Asymetry in mapping: learn one representation and classify with another one such that the inner product is the similarity? see nati paper
 -probabalistic models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? what do I do with this info in my life?
 -self customizing google search(done by enriching query on client side? must be client side because big data too big)->see keyboards that learn style/correct such as swiftkey,swype(dragon engine),fleksy
 -can learning in batches of labeled be better than giving everything all at once?-this is almost certainly theoretically impossible...
--some kind of semi-formal theory for semi-supervised learning? no tags->clustering, 1 tag per class->named+better clustering. 2 per class->???
+-some kind of semi-formal theory for semi-supervised learning? no tags->clustering, 1 tag per class->named+better clustering without need to model select K (in unlabeled, can use instability metric...). 2 per class->??? good ratios of labeled/unlabeled to not lose much? cost of labelling vs error?
 -augumented reality-identifying people
 -learning heuristic for Go? separate by phase,strategy and calc value of each square?
 - axiomatic approach for system design(tennenholtz): good application to planning or learning?
