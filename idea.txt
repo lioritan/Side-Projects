@@ -11,14 +11,17 @@ Want to try out(high->low):
 -NLP understanding: creating and linking concepts using texts(differing confidence?) and core concepts(biology?)
 -How to create good concepts and good linking relations?+how to defer concept until better understand or refine?
 -Can mby combine with ESA(download from Evgeny webpage link to implementations) for deep understanding(could look at word, word+2 nearest, then 4 nearest and so on until sentence(contextual features). this is like POS tagging(HMM) and somewhat like NER(log linear model) )
+->see also word2vec as pretty much exactly this
 -information extraction? open IE? (isn't this basically it in concept?)(parse(can get away with rougher parsing)+coreference of words)
 -freebase knowledge graph+open linked data
 -deep learning with NLP using encoding schemes? and mby can expand for active case+have learning rate depend on number of examples... mby have some kind of stream model for classification?
 -cognitive systems, IBM watson
+-topic models learn topics automatically from data
 
 -deeep learning(Neural nets, belief nets, boltzman) as feature generation, mby try deep learning with relational data mixed in somehow?
 
 -extending my work for handeling general set-valued features? seems like a mostly natural expansion...
+-also can choose different label set or use aggregation and not binarization (what about numeric attributes?)
 
 Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
@@ -26,11 +29,11 @@ Minor stuff:
 -Deep learning with other weight schemes(not convolution/full connect)(dropout zeros some fraction of the weights and helps generalize so mby)? also other transforms?
 -One/low examplar Deep learning neural nets that do well? mby after already trained on some known classes and got a new one(semi-online)? or maybe train on unlabled data then get single labeled example and extrapolate well from it. mby need eta as function of #{examples of same class}->rapid increase in adoption. 
 -Asymetry in mapping: learn one representation and classify with another one such that the inner product is the similarity? see nati paper
--probabalistic models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? what do I do with this info in my life?
+-probabalistic models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? see also topic models for recommendation/data mining
 -self customizing google search(done by enriching query on client side? must be client side because big data too big)->see keyboards that learn style/correct such as swiftkey,swype(dragon engine),fleksy
 -can learning in batches of labeled be better than giving everything all at once?-this is almost certainly theoretically impossible...
--some kind of semi-formal theory for semi-supervised learning? no tags->clustering, 1 tag per class->named+better clustering without need to model select K (in unlabeled, can use instability metric...). 2 per class->??? good ratios of labeled/unlabeled to not lose much? cost of labelling vs error?
+-some kind of semi-formal theory for semi-supervised learning? no tags->clustering, 1 tag per class->named+better clustering without need to model select K (in unlabeled, can use instability metric...). 2 per class->??? good ratios of labeled/unlabeled to not lose much depending on smoothness? cost of labelling vs error? consider also linked training example?
 -augumented reality-identifying people
--learning heuristic for Go? separate by phase,strategy and calc value of each square?
+-learning a heuristic for Go? separate by phase,strategy and calc value of each square?
 - axiomatic approach for system design(tennenholtz): good application to planning or learning?
--auto music composition from humming? different tools?
+-auto music composition from humming it? different tools?
