@@ -20,8 +20,9 @@ Want to try out(high->low):
 
 -deeep learning(Neural nets, belief nets, boltzman) as feature generation, mby try deep learning with relational data mixed in somehow?
 
--extending my work for handeling general set-valued features? seems like a mostly natural expansion...
--also can choose different label set or use aggregation and not binarization (what about numeric attributes?)
+-extending my work for handeling(better aggregation) general set-valued features? seems like a mostly natural expansion...
+-in existing case, can choose different label set or use aggregation and not binarization (what about numeric attributes?)
+-connection to refinement graphs? 
 
 Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
