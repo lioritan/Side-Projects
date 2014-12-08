@@ -22,7 +22,8 @@ Want to try out(high->low):
 
 -extending my work for handeling(better aggregation) general set-valued features? seems like a mostly natural expansion...
 -in existing case, can choose different label set or use aggregation and not binarization (what about numeric attributes?)
--connection to refinement graphs? 
+-connection to refinement graphs? (some theory???)
+-using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones!)
 
 Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
