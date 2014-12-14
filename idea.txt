@@ -24,6 +24,7 @@ Want to try out(high->low):
 -in existing case, can choose different label set or use aggregation and not binarization (what about numeric attributes?)
 -connection to refinement graphs? (some theory???)
 -using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones!)
+-making the alg at least a bit more scalable (horrible complexity is horrible)
 
 Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
@@ -38,4 +39,5 @@ Minor stuff:
 -augumented reality-identifying people
 -learning a heuristic for Go? separate by phase,strategy and calc value of each square?
 - axiomatic approach for system design(tennenholtz): good application to planning or learning?
+- crypto lens for learning (zero knowledge, private learning, learning over functional encryption)
 -auto music composition from humming it? different tools?
