@@ -16,7 +16,8 @@ Want to try out(high->low):
 -freebase knowledge graph+open linked data
 -deep learning with NLP using encoding schemes? and mby can expand for active case+have learning rate depend on number of examples... mby have some kind of stream model for classification?
 -cognitive systems, IBM watson
--topic models learn topics automatically from data
+-topic models learn topics automatically from data -> see also omri abend work for language aquistion (go from text to semantics by treating syntax as latent)
+
 
 -deeep learning(Neural nets, belief nets, boltzman) as feature generation, mby try deep learning with relational data mixed in somehow?
 
