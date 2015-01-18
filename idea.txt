@@ -42,3 +42,4 @@ Minor stuff:
 - axiomatic approach for system design(tennenholtz): good application to planning or learning?
 - crypto lens for learning (zero knowledge, private learning, learning over functional encryption)
 -auto music composition from humming it? different tools?
+- learning visualisation stuff: embed feature space in 3-D using Johnson-Lindenstrauss?
