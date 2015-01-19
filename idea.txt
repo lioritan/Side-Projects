@@ -1,4 +1,6 @@
 Want to try out(high->low):
+-Research Topic: auto-learning: learning with little to no human part->feature learning/construction, semi/unsupervised problems (or self-labeling), auto-model selection and so on, basically have a good knowledge seed and possibly a minor active element and run with it to full blown AI?
+
 -smart parameter tuning on anytime algorithms(mby use statistical tests to help with time)
 
 -General intelligence as maximizing future options? interesting concept(maybe use as way to tag samples-increase future options good and decrease bad on 1:2 ratio)
@@ -17,7 +19,6 @@ Want to try out(high->low):
 -deep learning with NLP using encoding schemes? and mby can expand for active case+have learning rate depend on number of examples... mby have some kind of stream model for classification?
 -cognitive systems, IBM watson
 -topic models learn topics automatically from data -> see also omri abend work for language aquistion (go from text to semantics by treating syntax as latent)
-
 
 -deeep learning(Neural nets, belief nets, boltzman) as feature generation, mby try deep learning with relational data mixed in somehow?
 
