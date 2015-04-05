@@ -1,5 +1,14 @@
 Want to try out(high->low):
 -Research Topic: auto-learning: learning with little to no human part->feature learning/construction, semi/unsupervised problems (or self-labeling), auto-model selection and so on, basically have a good knowledge seed and possibly a minor active element and run with it to full blown AI?
+*possibly also semi-supervised with very few examples
+
+-extending my work for handeling(better aggregation) general set-valued features? seems like a mostly natural expansion...
+-in existing case, can choose different label set or use aggregation and not binarization (what about numeric attributes in relations?)
+-connection to refinement graphs? (some theory???)
+-using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones! now you have a label propagation problem. can mby solve like pagerank algorithm?)
+->can mby use tfidf as weights for labeling
+-making the alg at least a bit more scalable (horrible complexity is horrible)
+-idea (credit to omer levy): is there a way to generalize the relations used? (the classifier uses very specific relations, but it's possible that a very similar relation exist that can be used as well. could mby do this using schema tricks?)
 
 -smart parameter tuning on anytime algorithms(mby use statistical tests to help with time)
 
@@ -21,12 +30,6 @@ Want to try out(high->low):
 -topic models learn topics automatically from data -> see also omri abend work for language aquistion (go from text to semantics by treating syntax as latent)
 
 -deeep learning(Neural nets, belief nets, boltzman) as feature generation, mby try deep learning with relational data mixed in somehow?
-
--extending my work for handeling(better aggregation) general set-valued features? seems like a mostly natural expansion...
--in existing case, can choose different label set or use aggregation and not binarization (what about numeric attributes?)
--connection to refinement graphs? (some theory???)
--using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones!)
--making the alg at least a bit more scalable (horrible complexity is horrible)
 
 Minor stuff:
 -Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
