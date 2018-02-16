@@ -1,78 +1,31 @@
-Want to try out(high->low):
-- learning visualisation stuff: embed feature space in 3-D using Johnson-Lindenstrauss?
+- learning visualisation stuff: embed feature space in 3-D using Johnson-Lindenstrauss? tsne v JL v SVD dimension reduction v manifold (see distilpub)
 
+-markov networks are the most amusing shit there is
 
--smart parameter tuning on anytime algorithms(mby use statistical tests to help with time)
-
-
+reinforcment learning:
 -General intelligence as maximizing future options? interesting concept(maybe use as way to tag samples-increase future options good and decrease bad on 1:2 ratio)
 ->maybe add deep learning(learn deep concept/good representation from simple representation(i.e. pixels)->good with sensors. can also work with unlabled data)
 ->what the heck does "future options" even mean in most contexts we use? Is this generalizable? relation to simple biological functions?
 ->use PyBrain here?
--reinforcment learning(fit agent to enviroment+task, get feedback from enviroment, repeat)
--cognitive systems, IBM watson
+-agent competition
+-agent imitation
+-NN noise in reinforcement learning (combine with something)
+-imagination?
 
-
--deeep learning(Neural nets, belief nets, boltzman) as feature generation, mby try deep learning with relational data mixed in somehow?
--Deep learning with other weight schemes(not convolution/full connect)(dropout zeros some fraction of the weights and helps generalize so mby)? also other transforms?
-
-
--NLP understanding: creating and linking concepts using texts(differing confidence?) and core concepts(biology?)
--How to create good concepts and good linking relations?+how to defer concept until better understand or refine?
--Can mby combine with ESA(download from Evgeny webpage link to implementations) for deep understanding(could look at word, word+2 nearest, then 4 nearest and so on until sentence(contextual features). this is like POS tagging(HMM) and somewhat like NER(log linear model) )
-->see also word2vec as pretty much exactly this
--information extraction? open IE? (isn't this basically it in concept?)(parse(can get away with rougher parsing)+coreference of words)
--freebase knowledge graph+open linked data
--deep learning with NLP using encoding schemes? and mby can expand for active case+have learning rate depend on number of examples... mby have some kind of stream model for classification?
--cognitive systems, IBM watson
+-deep learning for text (autoencoders? recurrent LSTM? something something)
+-also word2vec as baseline can be cute
 -topic models learn topics automatically from data -> see also omri abend work for language aquistion (go from text to semantics by treating syntax as latent)
 
+-deep learning without parameters? something better than genetic alg?
 
--self customizing google search(done by enriching query on client side? must be client side because big data too big)->see keyboards that learn style/correct such as swiftkey,swype(dragon engine),fleksy
-
-
--augumented reality-identifying people
--augumented reality-3d modeling from pics->simulator?
--ar -facebook event finder show on image...
-
-
-
-
-
-
-
-
-
-
-
-
--Research Topic: auto-learning: learning with little to no human part->feature learning/construction, semi/unsupervised problems (or self-labeling), auto-model selection and so on, basically have a good knowledge seed and possibly a minor active element and run with it to full blown AI?
-*possibly also semi-supervised with very few examples
-
--extending my work for handeling(better aggregation) general set-valued features? seems like a mostly natural expansion...
--in existing case, can choose different label set or use aggregation and not binarization (what about numeric attributes in relations?)
--connection to refinement graphs? (some theory???)
+-extending my work:
 -using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones! now you have a label propagation problem. can mby solve like pagerank algorithm?)
 ->can mby use tfidf as weights for labeling
 -making the alg at least a bit more scalable (horrible complexity is horrible)
 -idea (credit to omer levy): is there a way to generalize the relations used? (the classifier uses very specific relations, but it's possible that a very similar relation exist that can be used as well. could mby do this using schema tricks?)
 
 Minor stuff:
--Anytime+Online/active learning (just like the brain)->one example/minibatch at a time and interuptable time to learn. should maybe adapt only after a few examples were wrong?
--methods of collective classification(semi-supervised learning)-especially when both partial links and partial tagging. RDF data has graph-based kernels (markov logic? markov/bayes networks mby enough?)
--One/low examplar Deep learning neural nets that do well? mby after already trained on some known classes and got a new one(semi-online)? or maybe train on unlabled data then get single labeled example and extrapolate well from it. mby need eta as function of #{examples of same class}->rapid increase in adoption. 
--Asymetry in mapping: learn one representation and classify with another one such that the inner product is the similarity? see nati paper
--probabalistic models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? see also topic models for recommendation/data mining
--can learning in batches of labeled be better than giving everything all at once?-this is almost certainly theoretically impossible...
--some kind of semi-formal theory for semi-supervised learning? no tags->clustering, 1 tag per class->named+better clustering without need to model select K (in unlabeled, can use instability metric...). 2 per class->??? good ratios of labeled/unlabeled to not lose much depending on smoothness? cost of labelling vs error? consider also linked training example?
--learning a heuristic for Go? separate by phase,strategy and calc value of each square? SOLVED
-- axiomatic approach for system design(tennenholtz): good application to planning or learning?
+-ideas models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? see also topic models for recommendation/data mining
 - crypto lens for learning (zero knowledge, private learning, learning over functional encryption)
--auto music composition from humming it? different tools?
-
--Visualization 
-- automated BI/data fusion
--more on collective learning (cybercrime case?) node4j
--abusing browser web apps? (security)
--"bias agnostic accuracy?"-racism in data science
--hdfs/spark
+-Deep learning with other weight schemes(not convolution/full connect)(dropout zeros some fraction of the weights and helps generalize so mby)? also other transforms?
+-smart parameter tuning on anytime algorithms(mby use statistical tests to help with time)

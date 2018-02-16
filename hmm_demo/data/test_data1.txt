@@ -1,0 +1,345 @@
+A mysterious entity, known only as The Elder, haunts the Atlas of Worlds, spreading decay and battling The Shaper for control. For more information about the War for the Atlas, check out www.pathofexile.com/war
+Added 32 new maps including two new Unique maps.
+Added new boss fights with The Elder and his four Guardians.
+Introduced Shaped and Elder items. These items can only be obtained in areas where the Shaper or the Elder holds influence, or by defeating the Shaper or Elder themselves. Shaped and Elder items can obtain mods not found elsewhere, as well as higher-tier versions of some existing mods.
+Added a new quest: The Queen of the Sands. This quest can be obtained by talking to Petarus and Vanja in Act 9 after completing the prerequisite quest The Storm Blade. The Book of Skill quest reward for completing The Storm Blade has been moved to the Queen of the Sands. The Storm Blade now rewards players with their choice of several rare weapons.
+Added 48 new Unique items.
+Added 6 new Divination Cards designed by our supporters.
+Added a new Dexterity/Intelligence Skill Gem - Unearth: Fires a projectile that will pierce through enemies to impact the ground at the targeted location, creating a Bone Archer corpse where it lands.
+Added a new Dexterity Skill Gem - Cremation: A targeted corpse explodes, dealing area damage and turning into a volcanic geyser, which will repeatedly unleash projectiles sequentially over the surrounding area for a duration. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.
+Added a new Intelligence/Dexterity Skill Gem - Bodyswap: Your body explodes, dealing spell damage in an area around you, and a targeted corpse also explodes, dealing damage around it. Your body is recreated at the location of the corpse. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected. This spell cannot be repeated.
+Added a new Dexterity/Intelligence Skill Gem - Volatile Dead: Corpses near the targeted location explode, dealing damage in a small area and creating an orb which moves towards nearby enemies before dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.
+Vulnerability has been split into two skill gems - Vulnerability and Despair. Vulnerability, a Strength Skill Gem, curses all targets in an area, causing them to take increased physical damage and increased physical damage over time. Attacks against cursed enemies have a chance to inflict bleeding and maim.
+Despair, an Intelligence Skill Gem, curses all targets in an area, making them less resistant to chaos damage and causing them to take increased damage over time. Cursed enemies also take additional chaos damage when hit. Existing Vulnerability skill gems have become Despair.
+Added a new Intelligence Support Gem - Storm Barrier Support: Creates a barrier around you while you channel a supported skill. The barrier reduces the physical and lightning damage you take from hits, and grants you a chance to gain a power charge when hit.
+Added a new Dexterity Support Gem - Volley Support: Adds two projectiles to supported skills, and causes them to be fired from points to either side of you, in parallel. Projectiles Nova (found on Sire of Shards) will currently override the projectile source part of this support, however, this will change in a future patch.
+Added a new Intelligence Support Gem - Spell Cascade Support: Supported area-targeting skills will also target an area in front of and behind your initial target.
+Added a new Strength Support Gem - Ancestral Call Support: Supported single-target melee skills targets two additional nearby enemies.
+Added a new Dexterity Support Gem - Mirage Archer Support: Hitting an enemy with a supported bow skill creates a Mirage Archer who continues to use that skill for a duration.
+Added 3D art for: Malachai's Mark, Dialla's Malefaction, Dendrobate, Hiltless, Void Battery, Redblade Tramplers and Lightning Coil.
+Added a new unique Strongbox designed by one of our supporters.
+Added a new Rogue Exile based on the winner of the Best Dressed Exile competition.
+
+The Abyss Challenge League
+Challenge leagues are a great opportunity for a fresh start in a new economy. All of your old characters and items are still present in the Standard and Hardcore leagues, but you're encouraged to join the new leagues, complete challenges and demonstrate your mastery of Path of Exile!
+With 3.1.0, there are Standard and Hardcore variations of the Abyss challenge league available, as well as solo self-found variants of both. They have the same core mechanics and items. In the Abyss League, players will encounter cracks in the ground. Get too close, and these cracks widen and spread, allowing the terrible monsters to climb from their inky depths. Pursue these cracks, and you may discover a massive chasm from which dangerous packs of monsters emerge. Once you defeat these monsters, the Abyss continues to propagate, creating more chasms. Take too long, and the Abyss will seal shut, but if you're quick and deadly enough, a chest filled with valuable rewards will emerge from below.
+As players progress through the Abyss League, some pits may offer access to the Abyssal Depths below. These Abyssal Depths are packed with monstrous creatures and valuable rewards, and culminate in an exciting boss encounter.
+Exploring the Abyssal Depths in high-level areas might result in an encounter with a Lich boss. These difficult boss fights are quite rare, but very rewarding. Defeating a Lich is the only way to earn an exclusive Abyss Unique item.
+Monsters and chests from the Abyss can drop Abyss Jewels. Like other Jewels, these can be placed in sockets in your passive tree to grant powerful bonuses. Unlike other Jewels, they have a set of exclusive new properties and can also be placed in Abyssal Sockets on your items! These sockets can be found on the new Abyss Uniques and a new base type of Abyss-socketed belt: the Stygian Vise.
+The Abyss League includes a set of 40 new challenges. When you complete 12 challenges, you receive the Abyss Helmet skin. At 24, you receive the Abyss Wings. When you complete your 36th challenge, you receive the Abyss Portal effect. These microtransactions are exclusively available in the Abyss League.
+From the 19th challenge onwards and for every third challenge after that, you receive pieces of an Abyss Totem Pole decoration to display in your hideout. The Totem Pole permanently showcases how many of the Abyss challenges you completed during this league.
+
+Minor Features:
+The targeting behaviour of many skills has been improved, especially against large targets such as Kitava and Arakaali.
+Updated the item frames to fit the current user interface.
+Updated the Stash chest model. So new! So shiny!
+The tutorial has been slightly adjusted to better direct players who are having trouble very early on.
+Added a tutorial element for using Portal scrolls, and improved the Waypoint tutorial.
+Added a visible Tutorial barrier to the entry of Lioneye's Watch, which vanishes after a passive skill point is applied.
+You can now open the Help Panel by pressing ';'. This can be changed in the Options menu.
+You can now dismiss Help Panel notifications by right-clicking them. They will disappear by themselves after 6 seconds.
+You can now turn Divination Cards in at Navali in the Epilogue town or in your hideout. The description of the Divination Card achievement "Soothsaying" has been updated to reflect this.
+The Forsaken Masters have moved back to Oriath, and can now be found in the Epilogue town.
+An effect is now played on corpses which disappear due to hitting the corpse-creation limit for skills like Desecrate and Unearth.
+Values for ailments, such as Shock and Chill effectiveness, can now be viewed in the Character panel.
+Added a system for scaling the visual effects of ailments based on the size of the monster.
+Added voice acting for many NPCs and story glyphs which were missing them when they were added in The Fall of Oriath.
+Added images to the map pin hovers for areas added in The Fall of Oriath.
+Added an option to leave your current party to the character portrait drop-down menu.
+The league selected on the drop-down menu on the Character Selection screen is now saved, and will be the selected league whenever you open your client.
+Improved the quest reward selection user interface.
+Added a timer below each flask icon which, while the flask is active, displays the remaining duration for that flask.
+Debuffs are now displayed on a separate line to buffs, flask effects and charges.
+Auras you have activated that are affecting you are no longer displayed in the buff bar as the skill icon shows which auras are active. Auras from other sources will still appear in your buff bar.
+Skills with modified cooldowns now show their final cooldown rather than the cooldown modifier.
+Monsters will now show their rarity as they're emerging.
+The Challenges tab now displays the number of challenges you have completed at the top.
+The default minimum for Dynamic Resolution Scaling is now set to 30 frames per second. You can change this in the Options menu.
+Improved the effects for monster rarities and ailments.
+Added support for subsurface scattering. Check out the ice and candles!
+Optimised a lot of skills, areas, monsters and effects.
+Continued to incrementally improve the sound, art, effects and environments.
+
+Character Balance
+Intimidate now causes enemies to take 10% increased Attack Damage (rather than 10% increased Damage).
+The experience penalty at very high levels has been increased. This predominantly affects characters at level 95 and above.
+
+Skill Balance
+Existing Vulnerability Skill gems are now Despair gems. Despair curses all targets in an area, making them less resistant to chaos damage, and causing them to take increased damage over time. Cursed enemies also take additional chaos damage when hit. There is a new red skill gem called Vulnerability.
+Your minions (and their minions) will no longer deal or take damage while you are dead.
+Dark Pact no longer gains bonus radius when using your life. The damage bonus from using your life grows less quickly as the gem levels up, dealing 76% more damage at level 20 (down from 95%).
+Detonate Dead now deals spell damage based on the level of the skill gem, in addition to damage based on the corpse's maximum life. The base fire damage dealt by the spell part of the explosion has been significantly increased. The skill now gains additional area of effect radius as it levels, and its base critical chance has been increased from 5% to 6%. The cast time has been lowered to 0.6 seconds (from 0.8).
+Raise Spectre now grants additional accuracy to Spectres based on the level of the gem.
+Bear Trap and Vaal Rain of Arrows now remove all movement speed, as opposed to reducing it by 300%.
+Raging Spirits now have a 15% less Added Damage multiplier, up from 30%.
+Summoned Skeletons now have a 50% more added damage multiplier, up from 30% less added damage.
+Raging Spirits, Spiders created from Arakaali's Fang, and the spirit skulls from the Essence of Insanity can no longer taunt their enemies.
+The amount of burning damage dealt by the burning ground created by a Burning Arrow on a character with the Pitch Darkness threshold jewel is now determined by the level of the Burning Arrow skill gem.
+Orb of Storms can now trigger lightning strikes from channelled skills.
+Desecrate: Now creates 5 corpses (up from 3). The cooldown has been reduced to 3 seconds per stack (down from 5), and the cast time has been reduced to 0.8 seconds (down from 1). Desecrate's maximum corpse level now grows more steadily as the skill gem levels up. It can now create higher level corpses at most levels, except level 19 of the gem, in which the maximum corpse level has been lowered from 100 to 81.
+Lightning Tendrils has been reworked. It is now a channelled skill, and deals more damage on every 4th pulse. It has also received a visual overhaul. The new version hits slightly less frequently than previously, but has higher sustained damage overall.
+Minion Life Support now affects Minion Life multiplicatively (it now provides 30% MORE Minion Life rather than 30% increased Minion Life) at level 1 of the gem (up to 49% more life at level 20).
+Dark Pact now counts as being a Minion skill gem, and will thus interact with effects such as the one found on Cloak of Tawm'r Isley.
+Ruthless Support can no longer support Channelled skills.
+Cyclone can no longer be supported by Ruthless Support.
+Iron Will can now support Summon Skeleton and will affect the damage dealt by Skeleton Mages if you are using the Dead Reckoning threshold jewel.
+Arctic Armour's chilling effect now slows enemies by 30% when you are hit (up from 10%).
+Melee attacks supported by Multistrike now more accurately take attack range (including area of effect modifiers) into account when checking for targets for subsequent attacks. This has negatively impacted some skills and positively impacted others, but in general melee skills supported by Multistrike will target monsters that better fit the behaviour of the attack.
+Bladefall's area of effect was wider than intended close to the caster. The area of effect now better matches the area the blades visually land. The total width of Bladefall's area of effect has been increased slightly to compensate for the now-narrower early stages.
+Storm Burst is now correctly modified by factors based on the state of the projectile (such as Powerful Precision's "Projectiles have 100% increase Critical Strike Chance against Targets they Pierce").
+Charged Dash is now limited to a maximum of 15 strikes per skill use, as well as limited by distance travelled.
+Static Strike's radius has been increased from 19 to 20, bringing its total radius to 24 at gem level 20. Static Strike's explosion now correctly applies ailments with 40% less effect. It was previously applying ailments without taking the less-damage modifier into account.
+Ice Crash's radius has been increased from 8 to 9 for the first stage, from 16 to 18 for the second stage, and from 24 to 26 for the third stage.
+Earthquake's radius has been increased from 25 to 28 for the second stage.
+Reave's radius has been increased from 17 to 20, bringing it up to 24 at gem level 20.
+Wither now increases Chaos damage taken by 6% (down from 7%), and stacks up to 15 times (down from 20).
+Vaal Power Siphon's radius has been reduced to 70 units (down from 120).
+
+Item Balance
+Divination Cards: The locations, drop rates and requirements for many Divination Cards have been reworked, in part due to the changes to the Atlas in this patch, and in part to better integrate Divination Cards into areas introduced in The Fall of Oriath.
+Life regeneration mods have been slightly renamed and reordered as two higher tiers have been added.
+Life regeneration mods on rare items have been buffed across the board, with the existing highest tier mod now granting up to 20 life per second. Existing items can be updated to these new values using Divine orbs.
+When used on a belt, Essence of Insanity now grants 10% increased Movement Speed during any Flask effect, up from 5%.
+Atlas-only item basetypes can no longer be found in Vaal Side Areas.
+Lowered the level requirement for Two-Toned Boots to 70.
+Lowered the level requirement for Spiked Gloves, Gripped Gloves and Fingerless Silk Gloves to 70.
+Lowered the level requirement for Bone Helmet to 73.
+Lowered the level requirement for the Vanguard Belt and Crystal Belt to 73.
+Lowered the level requirement for the Opal and Steel Rings to 78.
+
+Unique Item Balance
+Atziri's Acuity: No longer instantly leeches Life from critical strikes, and instead grants Vaal Pact if you have dealt a Critical Strike Recently. This does not affect existing versions of the item. See the Passive Tree Changes section for more information regarding changes to Vaal Pact.
+Witchfire Brew: Now creates a Despair curse aura on use. This affects all versions of the item.
+Doomfletch: Now adds 100% of Physical Damage as Damage of a random Element (down from 110%). No longer has increased Critical Strike Chance, and instead has (12-16) to (20-24) added Physical Damage. Divining an existing Doomfletch will change the added physical damage and the added damage of a random element, but will not remove the critical strike chance.
+Doomfletch's Prism: Now adds 100% of Physical Damage as Damage of each Element (down from 110%). This change can be divined.
+Kongming's Stratagem: No longer creates a smoke cloud when a socketed trap is triggered. Instead, grants the "Fog of War" skill, which creates a smoke cloud when any of your traps are triggered. This skill has a cooldown.
+Lion's Roar: Now only grants knockback to melee attacks during flask effect.
+Lycosidae: Chance to drop from monsters has been greatly reduced. This item was being used on a significant portion of melee characters across all levels as an extremely cheap way to get around accuracy requirements.
+Bisco's Collar: Chance to drop from monsters has been greatly reduced.
+Queen of the Forest: Now has 200 to 240% increased Evasion Rating (down from 240 to 380%). This change can be divined. The movement speed bonus this item can provide has been capped at 100% for all versions. Changes to evasion basetypes in The Fall of Oriath both pushed the evasion rating of this item too high, and took the movement speed this item granted to extremes.
+Rise of the Phoenix: Maximum Fire Resistance granted has been reduced to 5% (from 8%). Life regeneration has been increased to 15 to 20 per second (from 6). These changes can be divined. New versions now also grant 40 to 60 Life (this cannot be divined).
+Omen on the Winds: Now allows Ice Shot to pierce 3 additional targets (down from 5). This can be divined.
+The Dancing Dervish: While Manifest Dancing Dervish is active, the Dancing Dervish now has a 25% chance to grant you a Rampage kill when it hits a unique enemy. The minion created by this unique can no longer cross unwalkable gaps. These changes affect all versions of the item.
+The Pandemonius: The chilling effect now slows enemies by 30% when you are hit (up from 10%). These changes affect all versions of the item.
+The Baron: Now adds half of your Strength to your Minions (rather than all of your strength). This affects all versions of the item.
+Dead Reckoning: Now correctly replaces a number of Skeleton Warriors with Skeleton Mages when using Vaal Summon Skeletons.
+Death's Oath: Now properly updates its behaviour when items, passives or skills change it in some way.
+Auxium: Clarified that Freeze Duration (not Effect) is based on Energy Shield. The functionality has not changed.
+
+Monster Balance
+New monsters have been added to areas all throughout Wraeclast and Oriath, including newer, more difficult versions of the Parasites found throughout Acts 6 and 7, and Kitava-fied versions of the Blackguards found throughout Act 5.
+The number of monsters found in areas throughout the campaign has been adjusted, and the number of monsters found throughout the game should be more consistent across multiple instances. This particularly affects The Old Fields, The Vaal Ruins, The Sewers, The Marketplace, The Battlefront, The Ebony Barracks and The Crystal Veins, but is not strictly limited to those areas.
+The following unique monsters are no longer Immune to Freeze, and instead have a minimum action speed that they will be set to if they are frozen: The Shaper, Guardian of the Chimera, Guardian of the Minotaur, Guardian of the Hydra, Guardian of the Phoenix, Vision of Justice, The Goddess, Argus, Abaxoth, the End of All That Is, Haast, Unrelenting Frost, Atziri, Queen of the Vaal, Vessel of the Vaal, Atziri's Devoted, K'aj A'alai, K'aj Y'ara'az, K'aj Q'ura, A'alai, Y'ara'az, Q'ura, Tormented Temptress.
+Monsters which trigger skills based on the damage they take can now trigger those skills from taking damage over time.
+Infested monsters that can spawn parasites when slain now grant increased experience and drops when shattered or exploded, to compensate for them not releasing their parasites on death.
+Shield Crabs now give additional experience if destroyed before they would unleash their final form.
+Crimson Scholars also give additional experience if shattered.
+Monster mods "Reflects Physical Damage" and "Reflects Elemental Damage" have been reworked. They now appear as Nemesis mods. Attacking a monster with Physical or Elemental Reflect now triggers a mortar spell targeted at your location. This spell has a cooldown.
+Both versions of Reflect now only appear on Nemesis rare monsters.
+The effects created by Flame Bearer, Frost Bearer and Storm Bearer Bloodlines monsters now appear more quickly and should be more clearly visible.
+The Ryslatha fight in Act 6 has been significantly changed: Ryslatha's eggs now explode and create damaging patches on the ground, and Ryslatha herself is much more mobile. The monsters spawned by her pods are possessed by more difficult Parasites. Ryslatha herself is now immune to Knockback.
+The Lightning Thorns skill (used by the Blackguard Mages as well as others) no longer deals a flat amount of reflected Lightning damage to attackers. Instead, it triggers a nova of lightning projectiles with a short cooldown.
+The parasite infesting Hollowskull, the Willing Host is now called Encephalophage.
+Encephalophage can now Leap Slam.
+Parasites that drop off of slain monsters will now match their host's rarity.
+Riptide now better signals when it will use its dangerous skills, and creates fewer vortexes.
+Captain Arteri and Captain Aurelianus can now drop items -- just not very many.
+Carrion Burrowers are now visually distinct from their surface-dwelling counterparts.
+The life and damage of many Warbands monsters has been adjusted to make them suitable map bosses.
+The beams in the Avarius Reassembled encounter now have more pattern variations. They also deal less damage, but the damage persists for a duration after you have been touched.
+The beams in the Cato, Defiler of Light encounter have had the same treatment.
+Maligaro's Slam attack in Acts 7 and 9 now always Poisons and Maims on hit.
+Sulphuric Striders and Undying Operators can no longer appear in Essence monoliths.
+The Bloodstained skeletons found in the Blood Aqueducts have been made slightly more difficult.
+Effigy of Fear's crows now deal more damage.
+Improved the Tolman encounter in Act 8. Tolman and the Ankh can now use a few extra skills.
+Catarina missions which require you to find, raise, and kill an undead monster now use different on-death effects.
+Reduced the amount of damage dealt by the Pillars of Carnage rune explosion.
+Shavronne's Ball Lightning in Acts 6 and 9 now deals more damage and has a clearer area of effect. The skill also deals less damage at close range.
+Shavronne's Stormburst in Act 9 now fires an additional projectile. It can no longer stun, and it deals less damage to players at close range.
+Shavronne's summoned books now have more life and deal approximately 35% more damage.
+Anacuacotli, Death's Worship now deals physical damage with her projectile nova. Her Raging Spirits now deal more damage at lower levels.
+Greust's bandit allies now flee when he dies.
+Doedre's spirit is now a little quicker at raising zombies in Act 9.
+Doedre in Act 9 no longer repeatedly summons a large number of stone pillars. The pillars now die when the encounter ends.
+Significant portions of the Depraved Trinity encounter have been reworked. In particular, Maligaro's Bladefall and Shavronne's Ball Lightning have undergone large changes.
+The damage of Kitava's X-Blast (the skill shaped like an X!) has been lowered slightly in Act 10.
+The Bear Acolytes in Act 6 now move more quickly.
+Brinecrack now has a sweet suite of cracking new skills.
+Clockwork Golems will no longer simply flee. Instead, they will move around you and to you based on different conditions.Their damage has been increased by 25%.
+Reduced the damage dealt by the Harbinger of Disorder's Holy Mortar, and the duration of its Holy Spark.
+The Augmented Dead in Chamber of Sins in Act 7 no longer have a chance to launch a lightning soul on death.
+Dawn can now throw his shield, and it will explode into smaller projectiles.
+Dusk has a new projectile skill called Carpet Bomb, and it doesn't make your floors more comfortable to walk on.
+The Window Shard monsters in Act 10 now deal more damage, have more life and resist all Elements (instead of just cold). They spawn in fewer numbers and are larger. They now have altered behaviour to be less likely to all use their rolling attack immediately.
+Plague Retch in the Chamber of Sins now has some friends he can hang out with.
+Sin and Innocence are now a little more dynamic during the Act 10 finale.
+The Basilisk now has a Stone Gaze ability. If you face each other during this ability, you become petrified. Petrification is similar to freeze, but is removed if you are hit a number of times or the duration runs out.
+The Bloodsoaked Fallen in the Blood Aqueduct now explode on death, sending corrupted blood projectiles in all directions.
+Tukohama's Vanguards no longer summon multiple totems at a time while spectred, and the duration of their totems has been lowered to 5 seconds (from 10). They are less likely to place additional totems while they have at least one totem.
+Wickerman Righteous Fire damage has been lowered while spectred. These monsters were using a version of Righteous Fire not intended for spectres, and were dealing significantly more damage than intended as a result. This change brings them in line with other spectres who use Righteous Fire.
+
+Map Balance
+The entire Atlas has been reworked. Many map names have changed, as have their balance, tier and position on the Atlas. Many maps have also had their boss fights swapped or completely reworked.
+The rules used to generate monsters in endgame maps have been significantly reworked and rebalanced around the rate at which we expect players to reliably clear out the map. In general, narrow, linear maps will contain fewer total monsters than maps with complex layouts. We will be closely monitoring and adjusting the balance of this change and expect to make further changes and improvements over time.
+Map mods have also been rebalanced, and every mod now provides increased item rarity, increased item quantity, and increased monster pack size, though the magnitudes are dependent on the difficulty of the mod.
+Mao Kun: Monsters no longer gain Power and Endurance charges every 20 seconds, as this was consistently causing performance problems. These monsters now have a chance to gain those charges on hit. The number of monsters that appear in this map has been reduced, but the area now grants an increase to experience gained to compensate.
+Added a new map prefix: Feasting -- Area is inhabited by Cultists of Kitava.
+Many monsters which appeared in Acts 5 through 10 but did not appear in Maps have been added to Maps.
+Map bosses which have multiple forms or phases no longer count as multiple map bosses for the sake of achievements and challenges.
+Suncaller Asha's Leap Slam ability has been rebalanced, and now has a 4 second cooldown.
+Rek'tar can now smack around players who are standing too close to walls.
+Purge Hounds now come out of their gates from farther away, and will pursue players for longer distances.
+Water Elementals and their variants now appear in packs as a mix of visible and hidden monsters (as opposed to all hidden or all visible).
+The boss of the Death and Taxes unique map now moves 35% faster while immune to damage.
+Twisted Effigy monster corpses can now be Desecrated if you bring one into a map with you.
+Rhoa map bosses now regain 33% of their maximum life whenever you break one of their nests.
+Added a pack of magic monsters to the boss rooms of maps that were missing them.
+Monsters can now appear closer to the entrances in Oba's Cursed Trove.
+The Hallowed Ground unique map is now on the Cemetery basetype.
+The Perandus Manor unique map is no longer on the Atlas.
+
+Passive Tree Changes
+Vaal Pact has been significantly reworked. It no longer grants instantaneous Life Leech, and instead doubles the rate of your Life Leech as well as your maximum Life Leech rate. It has been moved into the Duelist's area.
+The passive skills behind Mind over Matter now grant 10% increased Mana (down from 12%) on the non-notables, and 30% increased Mana (down from 40%) and 40 added mana (down from 100) on the notable.
+The Hematophagy notable now grants 3% of maximum Life per second to Maximum Leech Rate (down from 5%).
+The Vitality Void notable now grants 3% of maximum Life per second to Maximum Leech Rate (down from 5%).
+Passive skills which previously granted increased Melee Physical Damage while holding a Shield now grant increased Physical Attack Damage while holding a Shield (it is no longer restricted to Melee).
+Many passive skills which previously only provided defensive bonuses while using a shield now also grant increased physical attack damage and damage with ailments while holding a shield.
+Removed one of the passive skills leading to the Ash, Frost and Storm notable (near the Scion).
+
+Ascendancy Balance Changes
+Slayer: Brutal Fervour no longer grants +10% of maximum Life per second to maximum Life Leech rate.
+
+Pantheon
+The map bosses you are required to defeat to upgrade your Pantheon have, for the most part, changed.
+Shakari has been added to the Pantheon.
+
+Labyrinth Balance
+Added a new Darkshrine effect that can only be found in the Eternal Labyrinth.
+Changed the requirements for some chests to appear. In general, chests should feel more rewarding and better suited for their level and difficulty.
+Increased the total amount of items found on average from Silver Chests.
+The helmet enchantment which grants additional projectiles for Barrage has been removed from the Merciless Labyrinth. The Eternal Labyrinth Barrage enchantment now grants one additional projectile (down from 2).
+
+Zana League Mods Available During 3.1.0:
+Level 2: Anarchy (costs 2 Chaos orbs): Area is inhabited by 3 additional Rogue Exiles, 20% increased quantity of items found.
+Level 3: Bloodlines (costs 3 Chaos orbs): Magic monster packs each have a Bloodline mod, 25% more Magic monsters, 20% increased quantity of items found.
+Level 4: Beyond (costs 3 Chaos Orbs): Slaying enemies close together can attract monsters from Beyond, 20% increased quantity of items found.
+Level 4: Fortune Favours the Brave (costs 3 Chaos Orbs): Selects a Zana mod at random from those available from the device, including any mods you have not yet unlocked.
+Level 5: Ambush (costs 4 Chaos Orbs): Areas contain 3 extra Strongboxes.
+Level 6: Domination (costs 4 Chaos Orbs): Area contains 3 extra Shrines.
+Level 7: Essence (costs 5 Chaos Orbs): Area contains 2 extra Essence Monoliths.
+Level 8: Breach (costs 6 Chaos Orbs): Areas contain 2 extra Breaches.
+
+PvP Balance:
+Removed the Level 60 Sarn Arena variant. Players who do not fit the requirements for the Level 40 Sarn Arena will be taken to the Open Sarn Arena.
+Characters which have entered the portal to Oriath at the end of Act 4 can no longer join Low Level Duelling queues.
+Death's Oath now deals significantly less damage against players (and Grandmasters).
+PvP-only characters can no longer activate the map device.
+Bleeding, Ignite and Poison now undergo PvP scaling based on the attack or cast time of the ailment's source. For skills with time override, the ailments use that.
+
+World Changes:
+Completing the Mercy Mission quest now rewards players with their choice of Support gem, as well as a flask.
+The Hedge Maze has been removed and both Chitus' Plum and the Trial of Ascendancy have been moved into The Imperial Gardens.
+Story glyphs have been added to areas all throughout Wraeclast, but in particular the areas added in The Fall of Oriath.
+The Strange Barrel now contains many more ordinary non-swarming things.
+The Fuel event in The Beacon is now more involved, with extra monster packs spawning during the event.
+The Southern Forest, especially in Act 6, has been fleshed out. The Act 6 version can now generate Vaal side areas.
+In the leadup to the Depraved Trinity encounter, the heart-entrances to Maligaro, Shavronne and Doedre's areas stop beating as you defeat the associated boss.
+The Templar's Stash in the Act 10 Ossuary has been renamed to the Sealed Chest. It has been given a new model.
+Hargan no longer discusses the High Gardens, and talking to him about it is no longer required for the All Ears achievement.
+Added numerous variations to world areas throughout the campaign. Most areas, in particular areas added in The Fall of Oriath, now have several new possible layouts.
+Voll's Proclamation in the Western Forest is now destroyed in Part 2. You should check it out. It's pretty neat.
+Updated the minimap icons for doors and area transitions that were missing them.
+Shrines should no longer appear directly outside Tukohama's Fortress.
+Kitava's arena in Act 10 is now called the Altar of Hunger.
+Malachai's journal no longer references an incorrect date.
+
+Prophecies:
+Rare monsters able to fulfill the requirements for unique item Prophecies have been added to various locations throughout the world. They provide the opportunity to obtain an item with a high enough level to be six-linked.
+You are no longer required to have the subject of a fated unique Prophecy equipped, and can now complete such prophecies by merely holding the unique item in your inventory while killing the correct boss.
+The Prophecy 'The Twins' which turns a non-Twinned map into a Twinned map no longer grants 6% increased quantity of items found.
+The Prophecy 'Monstrous Treasure' now completes upon opening the final strongbox in the area.
+
+Bug Fixes
+Fixed a lot of typos and mismatches between character dialogue as spoken and as written.
+Fixed a bug which caused certain chests in the Labyrinth which were intended to drop only Jewellery to instead drop items of all kinds.
+Fixed a bug which caused earlier levels of the Raise Zombie skill gem to display the wrong life values. This does not affect Zombie balance.
+Fixed a bug where some Vorici mission requirements would continue to be displayed even after completing or failing his mission.
+Fixed a bug where turning in a set of The Siren Divination Cards was giving a corrupted Whispering Ice without the correct 20% quality.
+Fixed a bug where the notable Practical Application granted Strength and Dexterity as separate (rather than combined) stats. This does not change the function of the passive whatsoever.
+Fixed a bug where you could bypass the barrier in Act 7 Chamber of Sins early.
+Fixed a bug where Ice Bite could support totem, trap and mine skills, despite its effect not working on them.
+Fixed supportability description text of both Ice Bite and Innervate.
+Fixed a bug where the Defiance notable was granting increased melee physical damage that was not conditional to holding a shield.
+Fixed a bug where you could Leap Slam out of General Adus's arena without completing the encounter. Also prevented access to the Trarthan Powder until General Adus is dead, for good measure. You know what you did, Raiz.
+Fixed a bug with the "increased global Armour while you have no Energy Shield" stat found on the Broken Faith unique item. This modifier was not correctly applying to armour which was gained by converting Evasion Rating to Armour with the Iron Reflexes keystone passive.
+Fixed a bug with the bonus unique Labyrinth Shrine effect that would cause a huge lag spike when activated.
+Fixed a bug which prevented some monsters from being able to trigger their mines.
+Fixed a bug where Tormented Spirits could possess the Solaris and Lunaris orbs during the Dawn and Dusk encounters.
+Fixed a bug in some languages where the skill popup UI would not properly scale to fit some text fields.
+Fixed a bug where the text on the Challenges screen could overlap in some languages.
+Fixed a client crash caused by the low mana tutorial.
+Fixed a bug where totems with low maximum life values would fail to reach 1 life due to rounding, thus failing to properly disable Righteous Fire.
+Fixed a bug where you could kill Abberath, the Cloven One before it transitioned into its later phases.
+Fixed a bug where the Gem Level-up tutorial would incorrectly override other tutorials.
+Fixed a bug where shrines could occasionally be placed in unreachable locations.
+Fixed a bug where double-clicking a character with an expired name would deselect the character while you were changing its name. This would prevent the renamed character from being automatically logged in as intended, and not change the name on the character select screen even though it had saved the new character's name to the server.
+Fixed a bug where selecting a slot on the Cosmetics tab after switching between the Cosmetics tab and Inventory tab using hotkeys would require an extra click.
+Fixed a bug where modifiers to ailment damage from attacks while holding a shield were applying twice if you weren't using Varunastra.
+Fixed a bug where the sextant that grants players instant life and mana recovery from flasks was not actually granting any instant recovery.
+Fixed a bug where removing a Static Strike skill gem from its socket (or doing anything else to disable the skill) would immediately trigger all Static Strike explosions.
+Fixed a bug where enemies hit by Sunder's linear component also unintentionally got hit by the area of effect that hit created.
+Fixed a bug where low-level characters in the same league and on the same account as characters engaged in the Shaper questline had that questline displayed in their quest tracker while in a town or hideout.
+Fixed a bug where effects that changed the size of your character could cause some spells and effects to appear incorrectly.
+Fixed a bug where damage-over-time effects were not correctly causing some bosses to transition through their phases. This could result in pure damage-over-time characters being unable to progress through some fights.
+Fixed a bug where Doedre could kill herself while teleporting if her life was especially low.
+Fixed a bug where skeleton generals summoned by Vaal Summon Skeletons played the wrong effect as they appeared.
+Fixed a bug where you could continue to channel skills even after being reduced to 0 action speed (such as after being petrified by the Basilisk).
+Fixed a bug where the automatically-updating public parties tab would turn off AFK mode.
+Fixed a bug where a Forsaken Master could teleport into a position that blocked access to areas (such as doorways).
+Fixed the displayed duration of Innervation and Arcane Surge on skills which have their own duration modifiers.
+Fixed a bug where the duration of instances of Temporal Chains applied on-hit from items was too short.
+Fixed a bug where attempting to respawn in a hideout where the waypoint was blocked by an object could cause you to disconnect.
+Fixed Life and Mana levels overlapping text with the Help Panel open.
+Fixed a bug where unique maps which shared a basetype with a map that had a boss whose soul could be captured for the pantheon would be displayed as having that boss.
+Fixed a bug where Glacial Hammer would sometimes not interact correctly with Herald of Ice's on-shatter effect.
+Fixed some instances of NPC talk options being placed in the wrong category.
+Fixed a bug where using a warcry while holding Debeon's Dirge would ignore knockback avoidance.
+Fixed a bug where, despite being untargetable, allied Harbingers (and other untargetable entities) could trigger enemy traps.
+Fixed a bug where gaining multiple Shrine effects of the same type in the Labyrinth would stack, rather than replace each other.
+Fixed several instances of skills becoming invisible after leaving and reentering an area. This includes Kitava's Devouring Darkness.
+Fixed a bug where Storm Burst's explosions were not destroying chests, cairns and barrels.
+Fixed some slightly wonky descriptons on the Fortify-centric passive skills.
+Fixed a bug where skills supported by Innervate would call all skills spells in the skill popup.
+Fixed a bug where some tightly-packed areas (such as Forsaken Master mission areas) would try and fail to spawn extra monsters like Tormented Spirits and Rogue Exiles. Now they should try and succeed! Great job!
+Moved the Labyrinth Silver chests and other rewards away from walls, and locked their rotation. This should prevent items they spit out becoming inaccessible.
+Fixed a bug where the Fellshrine Ruins could generate a Vaal side-area on the wrong side of the river.
+Removed several of Silk's old dialogue options that were out of date.
+Fixed a bug where Grandmasters were only gaining more attack damage from Frenzy charges, not general damage.
+Fixed a bug where the Vaal Ruins in Act 2 could generate a pile of extra rooms it wasn't meant to.
+Fixed a bug where the Shield Crabs in the Boiling Lakes didn't drop loot.
+Fixed a bug where the Lightning Rods in the General Adus and Minotaur fights could be knocked back.
+Fixed some audio popping/cracking issues.
+Fixed a bug where the Ankh of Eternity and the Teardrop quest items were missized for the size of their art.
+Fixed a bug where players could have more than the number of pets they actually own following them.
+Fixed a bug where French rare names were not always using the correct gender for the epithet.
+Blink Arrow's behaviour and reliability on unusual terrain has been improved.
+Fixed a bug where item hovers would sometimes vibrate.
+
+We hope you enjoy the War for the Atlas expansion! Thank you so much for your support.
+
+Recent Updates to the Patch Notes
+
+Character Balance
+The experience penalty at very high levels has been increased. This predominantly affects characters at level 95 and above.
+
+Item Balance
+Lowered the level requirement for Two-Toned Boots to 70.
+Lowered the level requirement for Spiked Gloves, Gripped Gloves and Fingerless Silk Gloves to 70.
+Lowered the level requirement for Bone Helmet to 73.
+Lowered the level requirement for the Vanguard Belt and Crystal Belt to 73.
+Lowered the level requirement for the Opal and Steel Rings to 78.
+
+Map Balance
+The Perandus Manor unique map is no longer on the Atlas.
