@@ -1,22 +1,58 @@
-- learning visualisation stuff: embed feature space in 3-D using Johnson-Lindenstrauss? tsne v JL v SVD dimension reduction v manifold (see distilpub)
+IMMEDIATE
+--------------------------------------------------------------------------------------------------------------------------------------------
+-deep learning for text (autoencoders? recurrent LSTM? something something)
+-also word2vec as baseline can be cute (summerization, autoreply, better hmm text generator, translate,...)
+-seq2seq with attention?
 
--markov networks are the most amusing shit there is
+-understanding deep learning:
+mess around with pytorch/tensorflow
+simple experiments in controlled environments => simple theroms => insight
+any model that works on complex domain should work well for the linear case (understand linear+ have intuition)
+model validation(cant CV): noah dolev-subsample your test set (each class with prob p), add noise to each feature (independent/correlated) using learning variance from train, calculate loss of test subsamples and repeat with bootstrap 
 
-reinforcment learning:
+GREAT STUFF
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+-Generative Advarserial Networks
+as unsupervised learning (mostly in RL)
+adam performs well - accidental? adam overfits and exagerates existing features
+aiden.nibali.org/blog/
+human originality as irrationality or ignoring probabilty distribution in a trained model? sometimes? 
+energy based GANs
+
+general reinforcment learning: (not just GANS- meh?)
 -General intelligence as maximizing future options? interesting concept(maybe use as way to tag samples-increase future options good and decrease bad on 1:2 ratio)
 ->maybe add deep learning(learn deep concept/good representation from simple representation(i.e. pixels)->good with sensors. can also work with unlabled data)
 ->what the heck does "future options" even mean in most contexts we use? Is this generalizable? relation to simple biological functions?
-->use PyBrain here?
 -agent competition
 -agent imitation
 -NN noise in reinforcement learning (combine with something)
--imagination?
+-imagination? (deepbrain)
+-RL as a control problem (ILC (iterative learning control) control problems assume strong physics model, but learn well with few examples, RL assumes very little and needs a ton of examples. middle ground?)
+corollary is genetic algs are kinda meh
+beware "adaptive" methods, usually not better than random search and they tend to exagerate/overfit like adam
+deepmind (unsuperviesed auxiliary tasks/imagination/deep reinforcment learning/differentiable neural computers/continual learning)
+can we do something with papers on bandits?
 
--deep learning for text (autoencoders? recurrent LSTM? something something)
--also word2vec as baseline can be cute
--topic models learn topics automatically from data -> see also omri abend work for language aquistion (go from text to semantics by treating syntax as latent)
+hyperparameter tuning: bayesian methods (fast converge but take long to compute. plays well with good initialization/early stopping/cutoff) 
+					v random search (still a good option) 
+					v halving random search (run K versions for time T/K, then kill half - the bad ones and double K. T=examples/epochs, K=params configs) see hyperband
+using "simplicity" (depth, neurons, weights) for regularization? genetic alg -> random guided search -> maybe some strong gurentee?
+can we do something with papers on bandits?
+autoML is very enticing! but alchemy?
 
--deep learning without parameters? something better than genetic alg?
+varmodel/lstm for time series data/anomaly detect
+
+MAYBE
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+"large margin" for deep learning?
+
+openai requests for research is neat
+
+MEH
+------------------------------------------------------------------------------------------------------------------------------------
+-deep learning without parameters? something better than genetic alg? -> this can't really work any better than random search...
 
 -extending my work:
 -using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones! now you have a label propagation problem. can mby solve like pagerank algorithm?)
@@ -27,5 +63,4 @@ reinforcment learning:
 Minor stuff:
 -ideas models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? see also topic models for recommendation/data mining
 - crypto lens for learning (zero knowledge, private learning, learning over functional encryption)
--Deep learning with other weight schemes(not convolution/full connect)(dropout zeros some fraction of the weights and helps generalize so mby)? also other transforms?
 -smart parameter tuning on anytime algorithms(mby use statistical tests to help with time)
