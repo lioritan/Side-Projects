@@ -1,14 +1,17 @@
 IMMEDIATE
 --------------------------------------------------------------------------------------------------------------------------------------------
--deep learning for text (autoencoders? recurrent LSTM? something something)
--also word2vec as baseline can be cute (summerization, autoreply, better hmm text generator, translate,...)
--seq2seq with attention?
 
 -understanding deep learning:
 mess around with pytorch/tensorflow
 simple experiments in controlled environments => simple theroms => insight
 any model that works on complex domain should work well for the linear case (understand linear+ have intuition)
-model validation(cant CV): noah dolev-subsample your test set (each class with prob p), add noise to each feature (independent/correlated) using learning variance from train, calculate loss of test subsamples and repeat with bootstrap 
+model validation(can't CV): noah dolev-subsample your test set (each class with prob p), add noise to each feature (independent/correlated) using learning variance from train, calculate loss of test subsamples and repeat with bootstrap 
+
+-deep learning for text (autoencoders? recurrent LSTM? something something)
+-also word2vec as baseline can be cute (summerization, autoreply, better hmm text generator, translate,...)
+-seq2seq with attention?
+
+PID? it looks interesting, RHC seems like a cool expand
 
 GREAT STUFF
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -27,12 +30,14 @@ general reinforcment learning: (not just GANS- meh?)
 -agent competition
 -agent imitation
 -NN noise in reinforcement learning (combine with something)
--imagination? (deepbrain)
+-imagination? (deepbrain) dreams? compress world -> train RNN to predict the probability of the compression space(MDN-RNN to predict future prob)
 -RL as a control problem (ILC (iterative learning control) control problems assume strong physics model, but learn well with few examples, RL assumes very little and needs a ton of examples. middle ground?)
 corollary is genetic algs are kinda meh
 beware "adaptive" methods, usually not better than random search and they tend to exagerate/overfit like adam
 deepmind (unsuperviesed auxiliary tasks/imagination/deep reinforcment learning/differentiable neural computers/continual learning)
+openAI evolution strategies(evolution hill climb) better than policy gradient (how about random search)
 can we do something with papers on bandits?
+-model for setting reward (every K steps) + model free to move to it. Also EM where E is setting world distribution and M is best policy given that distribution
 
 hyperparameter tuning: bayesian methods (fast converge but take long to compute. plays well with good initialization/early stopping/cutoff) 
 					v random search (still a good option) 
@@ -42,6 +47,8 @@ can we do something with papers on bandits?
 autoML is very enticing! but alchemy?
 
 varmodel/lstm for time series data/anomaly detect
+
+exloration/exploitation for model/reward shaping in RL(like EM, next level)
 
 MAYBE
 --------------------------------------------------------------------------------------------------------------------------------------------
