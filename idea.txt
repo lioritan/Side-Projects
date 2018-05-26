@@ -4,10 +4,6 @@ IMMEDIATE-tensorflow
 -also word2vec as baseline can be cute (summerization, autoreply, better hmm text generator, translate,...)
 -seq2seq with attention?
 
-IMMEDIATE-normal
----------------------------------------------------------------------------------------------------------------------------------------------
-PID? it looks interesting, RHC seems like a cool expand
-find something nice in python
 
 GREAT STUFF
 ---------------------------------------------------------------------------------------------------------------------------------------------
