@@ -1,17 +1,13 @@
-IMMEDIATE
+IMMEDIATE-tensorflow
 --------------------------------------------------------------------------------------------------------------------------------------------
-
--understanding deep learning:
-mess around with pytorch/tensorflow
-simple experiments in controlled environments => simple theroms => insight
-any model that works on complex domain should work well for the linear case (understand linear+ have intuition)
-model validation(can't CV): noah dolev-subsample your test set (each class with prob p), add noise to each feature (independent/correlated) using learning variance from train, calculate loss of test subsamples and repeat with bootstrap 
-
 -deep learning for text (autoencoders? recurrent LSTM? something something)
 -also word2vec as baseline can be cute (summerization, autoreply, better hmm text generator, translate,...)
 -seq2seq with attention?
 
+IMMEDIATE-normal
+---------------------------------------------------------------------------------------------------------------------------------------------
 PID? it looks interesting, RHC seems like a cool expand
+find something nice in python
 
 GREAT STUFF
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,6 +18,7 @@ adam performs well - accidental? adam overfits and exagerates existing features
 aiden.nibali.org/blog/
 human originality as irrationality or ignoring probabilty distribution in a trained model? sometimes? 
 energy based GANs
+-gans / vaes for data augementation (you learn non-linear mappping)
 
 general reinforcment learning: (not just GANS- meh?)
 -General intelligence as maximizing future options? interesting concept(maybe use as way to tag samples-increase future options good and decrease bad on 1:2 ratio)
@@ -49,17 +46,21 @@ autoML is very enticing! but alchemy?
 varmodel/lstm for time series data/anomaly detect
 
 exloration/exploitation for model/reward shaping in RL(like EM, next level)
+agent cooperation and competition yields faster learning?
 
 MAYBE
 --------------------------------------------------------------------------------------------------------------------------------------------
-
-"large margin" for deep learning?
-
 openai requests for research is neat
+
+simple experiments in controlled environments => simple theorems => insight
+any model that works on complex domain should work well for the linear case (understand linear+ have intuition)
+model validation(can't CV): noah dolev-subsample your test set (each class with prob p), add noise to each feature (independent/correlated) using learning variance from train, calculate loss of test subsamples and repeat with bootstrap 
 
 MEH
 ------------------------------------------------------------------------------------------------------------------------------------
--deep learning without parameters? something better than genetic alg? -> this can't really work any better than random search...
+-deep learning without parameters? something better than genetic alg? -> this can't really work any better than random search... unless you overfit like hell or you know something
+
+"large margin" for deep learning?
 
 -extending my work:
 -using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones! now you have a label propagation problem. can mby solve like pagerank algorithm?)
