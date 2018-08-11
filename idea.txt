@@ -4,6 +4,11 @@ IMMEDIATE-tensorflow
 -also word2vec as baseline can be cute (summerization, autoreply, better hmm text generator, translate,...)
 -seq2seq with attention?
 
+MATH TO READ UP ON:
+partially observed Markov-Decision Processes
+markov-decision processes
+
+
 
 GREAT STUFF
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -16,6 +21,8 @@ human originality as irrationality or ignoring probabilty distribution in a trai
 energy based GANs
 -gans / vaes for data augementation (you learn non-linear mappping)
 
+GQN - reniforcemnt learning with encoder->generator
+
 general reinforcment learning: (not just GANS- meh?)
 -General intelligence as maximizing future options? interesting concept(maybe use as way to tag samples-increase future options good and decrease bad on 1:2 ratio)
 ->maybe add deep learning(learn deep concept/good representation from simple representation(i.e. pixels)->good with sensors. can also work with unlabled data)
@@ -24,20 +31,26 @@ general reinforcment learning: (not just GANS- meh?)
 -agent imitation
 -NN noise in reinforcement learning (combine with something)
 -imagination? (deepbrain) dreams? compress world -> train RNN to predict the probability of the compression space(MDN-RNN to predict future prob)
+curiosity (==agent surprise compared to its model==prediction error) for better unsupervised explore
 -RL as a control problem (ILC (iterative learning control) control problems assume strong physics model, but learn well with few examples, RL assumes very little and needs a ton of examples. middle ground?)
 corollary is genetic algs are kinda meh
+LQR problems as baseline, maybe MPC methods (learn Q-function of state-action values, use to simulate T steps, take action, simulate, ..., adjust Q-function?)
+-model for setting reward (every K steps) + model free to move to it. Also EM where E is setting world distribution and M is best policy given that distribution
+(very similar approch...)
 beware "adaptive" methods, usually not better than random search and they tend to exagerate/overfit like adam
 deepmind (unsuperviesed auxiliary tasks/imagination/deep reinforcment learning/differentiable neural computers/continual learning)
 openAI evolution strategies(evolution hill climb) better than policy gradient (how about random search)
-can we do something with papers on bandits?
--model for setting reward (every K steps) + model free to move to it. Also EM where E is setting world distribution and M is best policy given that distribution
+can we do something with papers on bandits? need to read up  - used in adaptive control (you get one chance to learn your policy as you go)
+-EASY COMPARE: multi-dimension PID (when you know where you want to be and how the translation n->n+1 step works)
 
 hyperparameter tuning: bayesian methods (fast converge but take long to compute. plays well with good initialization/early stopping/cutoff) 
 					v random search (still a good option) 
 					v halving random search (run K versions for time T/K, then kill half - the bad ones and double K. T=examples/epochs, K=params configs) see hyperband
 using "simplicity" (depth, neurons, weights) for regularization? genetic alg -> random guided search -> maybe some strong gurentee?
-can we do something with papers on bandits?
 autoML is very enticing! but alchemy?
+
+https://blog.openai.com/language-unsupervised/ - unsupervised learning as basis for supervised boost
+
 
 varmodel/lstm for time series data/anomaly detect
 
@@ -54,10 +67,6 @@ model validation(can't CV): noah dolev-subsample your test set (each class with 
 
 MEH
 ------------------------------------------------------------------------------------------------------------------------------------
--deep learning without parameters? something better than genetic alg? -> this can't really work any better than random search... unless you overfit like hell or you know something
-
-"large margin" for deep learning?
-
 -extending my work:
 -using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones! now you have a label propagation problem. can mby solve like pagerank algorithm?)
 ->can mby use tfidf as weights for labeling

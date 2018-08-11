@@ -1,0 +1,21 @@
+syntax = "proto2";
+package big_obj;
+
+message File {
+    required string file_name = 1;
+	optional bytes content = 2;
+	optional string last_mod = 3;
+}
+
+message Folder {
+    required string path = 1;
+    optional string last_mod = 2;
+    repeated File files = 3;
+    repeated Folder folders = 4;
+}
+
+message DirFolders {
+    required string details = 1;
+	required Folder base_folder = 2;
+
+}
