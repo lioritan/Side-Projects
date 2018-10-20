@@ -1,4 +1,5 @@
-import avro.schema
+#import avro.schema
+import fastavro
 import json
 
 SCHEMA = {
@@ -18,4 +19,4 @@ SCHEMA = {
     ]
 }
 
-avro_schema = avro.schema.Parse(json.dumps(SCHEMA))
+avro_schema = fastavro.parse_schema(SCHEMA)

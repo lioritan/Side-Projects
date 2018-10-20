@@ -11,27 +11,36 @@ import avro_big
 
 def run_experiment(generator_func, avro_schema, times=100):
     results = np.zeros((times, 8))
+    avros = []
     for i in range(times):
         print(i)
-        results[i, :] = run_single(generator_func, avro_schema)
-    df = pd.DataFrame(data=results, columns=["avro_ser_time", "avro_deser_time", "avro_total_time", "avro_ser_size",
-                                             "proto_ser_time", "proto_deser_time", "proto_total_time",
-                                             "proto_ser_size"])
-    return df
+        avros.append(generator_func()[1])
+    before_ser = time()
+    serdd = serialization.serialize_avro_to_string(avro_schema, avros)
+    ser_time = time()-before_ser
+    before_deser = time()
+    deserdd = serialization.deserialize_string_to_avro(avro_schema, serdd)
+    deser_time = time() - before_deser
+    print(ser_time, deser_time, ser_time+deser_time)
+        #results[i, :] = run_single(generator_func, avro_schema)
+    #df = pd.DataFrame(data=results, columns=["avro_ser_time", "avro_deser_time", "avro_total_time", "avro_ser_size",
+    #                                         "proto_ser_time", "proto_deser_time", "proto_total_time",
+    #                                         "proto_ser_size"])
+    #return df
 
 
 def run_single(generator_func, avro_schema):
     results = np.zeros(8)
 
     message_proto, message_dict = generator_func()
-    datum_writer = avro.io.DatumWriter(avro_schema)
-    datum_reader = avro.io.DatumReader(avro_schema)
+    #datum_writer = avro.io.DatumWriter(avro_schema)
+    #datum_reader = avro.io.DatumReader(avro_schema)
 
     before_ser = time()
-    serialized = serialization.serialize_avro_to_string(datum_writer, message_dict)
+    serialized = serialization.serialize_avro_to_string(avro_schema, message_dict)
     results[0] = time() - before_ser
     before_deser = time()
-    deserialized = serialization.deserialize_string_to_avro(datum_reader, serialized)
+    deserialized = serialization.deserialize_string_to_avro(avro_schema, serialized)
     results[1] = time() - before_deser
     results[2] = results[0] + results[1]
     results[3] = len(serialized)
@@ -49,10 +58,10 @@ def run_single(generator_func, avro_schema):
     return results
 
 
-ppp = run_experiment(message_generator.create_small_message, avro_small.avro_schema, 1000)
-ppp.to_csv(path_or_buf="small_numbers.csv")
-ppp2 = run_experiment(message_generator.create_avg_message, avro_avg.avro_schema, 1000)
-ppp2.to_csv(path_or_buf="avg_numbers.csv")
+#ppp = run_experiment(message_generator.create_small_message, avro_small.avro_schema, 1000)
+#ppp.to_csv(path_or_buf="small_numbers1.csv")
+#ppp2 = run_experiment(message_generator.create_avg_message, avro_avg.avro_schema, 1000)
+#ppp2.to_csv(path_or_buf="avg_numbers1.csv")
 ppp3 = run_experiment(message_generator.create_big_message, avro_big.avro_schema, 100)
-ppp3.to_csv(path_or_buf="big_numbers.csv")
+#ppp3.to_csv(path_or_buf="big_numbers2.csv")
 aa = 4

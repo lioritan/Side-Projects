@@ -66,6 +66,6 @@ def create_big_message():
         sub_dir_file.last_mod = mod_time
         folder_dict["base_folder"]["folders"].append({"path": dir_folder.path, "last_mod": mod_time, "files": [{
             "file_name": sub_dir_file.file_name, "content": sub_dir_file.content, "last_mod": mod_time
-        }]})
+        }], "folders": []})
 
     return dir_folders, folder_dict

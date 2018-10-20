@@ -1,6 +1,8 @@
 import avro.schema
 import json
 
+import fastavro
+
 SCHEMA = {
     "namespace": "avg_obj",
     "type": "record",
@@ -29,4 +31,4 @@ SCHEMA = {
     ]
 }
 
-avro_schema = avro.schema.Parse(json.dumps(SCHEMA))
+avro_schema = fastavro.parse_schema(SCHEMA)

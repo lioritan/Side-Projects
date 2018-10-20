@@ -1,32 +1,16 @@
 IMMEDIATE-tensorflow
 --------------------------------------------------------------------------------------------------------------------------------------------
--deep learning for text (autoencoders? recurrent LSTM? something something)
--also word2vec as baseline can be cute (summerization, autoreply, better hmm text generator, translate,...)
--seq2seq with attention?
-
-MATH TO READ UP ON:
-partially observed Markov-Decision Processes
-markov-decision processes
-
-
+-tf mini-project: GAN for edit api (random in to change out)->clothes?screenshots?
+-Fun with active learning and/or embeddings
+-RL with gym+trfl+tensorflow
 
 GREAT STUFF
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
--Generative Advarserial Networks
-as unsupervised learning (mostly in RL)
-adam performs well - accidental? adam overfits and exagerates existing features
-aiden.nibali.org/blog/
-human originality as irrationality or ignoring probabilty distribution in a trained model? sometimes? 
-energy based GANs
+-human originality as irrationality or ignoring probabilty distribution in a trained model? sometimes? 
 -gans / vaes for data augementation (you learn non-linear mappping)
 
-GQN - reniforcemnt learning with encoder->generator
-
-general reinforcment learning: (not just GANS- meh?)
--General intelligence as maximizing future options? interesting concept(maybe use as way to tag samples-increase future options good and decrease bad on 1:2 ratio)
-->maybe add deep learning(learn deep concept/good representation from simple representation(i.e. pixels)->good with sensors. can also work with unlabled data)
-->what the heck does "future options" even mean in most contexts we use? Is this generalizable? relation to simple biological functions?
+general reinforcment learning: 
 -agent competition
 -agent imitation
 -NN noise in reinforcement learning (combine with something)
@@ -35,13 +19,21 @@ curiosity (==agent surprise compared to its model==prediction error) for better 
 -RL as a control problem (ILC (iterative learning control) control problems assume strong physics model, but learn well with few examples, RL assumes very little and needs a ton of examples. middle ground?)
 corollary is genetic algs are kinda meh
 LQR problems as baseline, maybe MPC methods (learn Q-function of state-action values, use to simulate T steps, take action, simulate, ..., adjust Q-function?)
--model for setting reward (every K steps) + model free to move to it. Also EM where E is setting world distribution and M is best policy given that distribution
-(very similar approch...)
-beware "adaptive" methods, usually not better than random search and they tend to exagerate/overfit like adam
+-MPC as DQN simulate with T steps instead of 1 (or N for monte carlo), Learning MPC (paper) as DQN equivalent but with T steps
 deepmind (unsuperviesed auxiliary tasks/imagination/deep reinforcment learning/differentiable neural computers/continual learning)
-openAI evolution strategies(evolution hill climb) better than policy gradient (how about random search)
+openAI evolution strategies(evolution hill climb) better than policy gradient (how about random search->about the same...)
 can we do something with papers on bandits? need to read up  - used in adaptive control (you get one chance to learn your policy as you go)
 -EASY COMPARE: multi-dimension PID (when you know where you want to be and how the translation n->n+1 step works)
+
+RL ramblings:
+-MDP improvise? non-stationary policies? irrational? hierarchy? changing discount? integrator element for policy grad?
+
+-General intelligence as maximizing future options? interesting concept(maybe use as way to tag samples-increase future options good and decrease bad on 1:2 ratio)
+->maybe add deep learning(learn deep concept/good representation from simple representation(i.e. pixels)->good with sensors. can also work with unlabled data)
+->what the heck does "future options" even mean in most contexts we use? Is this generalizable? relation to simple biological functions?
+beware "adaptive" methods, usually not better than random search and they tend to exagerate/overfit like adam
+
+--------------------------------------------
 
 hyperparameter tuning: bayesian methods (fast converge but take long to compute. plays well with good initialization/early stopping/cutoff) 
 					v random search (still a good option) 
@@ -51,10 +43,7 @@ autoML is very enticing! but alchemy?
 
 https://blog.openai.com/language-unsupervised/ - unsupervised learning as basis for supervised boost
 
-
-varmodel/lstm for time series data/anomaly detect
-
-exloration/exploitation for model/reward shaping in RL(like EM, next level)
+exloration/exploitation for model/reward shaping in RL(like EM? like UCB for DQN?)
 agent cooperation and competition yields faster learning?
 
 MAYBE
@@ -63,17 +52,20 @@ openai requests for research is neat
 
 simple experiments in controlled environments => simple theorems => insight
 any model that works on complex domain should work well for the linear case (understand linear+ have intuition)
-model validation(can't CV): noah dolev-subsample your test set (each class with prob p), add noise to each feature (independent/correlated) using learning variance from train, calculate loss of test subsamples and repeat with bootstrap 
 
-MEH
-------------------------------------------------------------------------------------------------------------------------------------
 -extending my work:
 -using graphical models after the first step as recursive classifier (converting non-graphical problems to graphical ones! now you have a label propagation problem. can mby solve like pagerank algorithm?)
 ->can mby use tfidf as weights for labeling
 -making the alg at least a bit more scalable (horrible complexity is horrible)
 -idea (credit to omer levy): is there a way to generalize the relations used? (the classifier uses very specific relations, but it's possible that a very similar relation exist that can be used as well. could mby do this using schema tricks?)
+-knowledge graphs for feature generation or for model enrichment or as bootstraping?
+
+varmodel/lstm for time series data/anomaly detect
+
+MEH
+------------------------------------------------------------------------------------------------------------------------------------
+
+word2vec learn matrix to find context for word embed - A la carte methods
 
 Minor stuff:
 -ideas models better than deterministic ones since can offer confidence->can rank positive results by confidence(like in watson), especially in relational case? see also topic models for recommendation/data mining
-- crypto lens for learning (zero knowledge, private learning, learning over functional encryption)
--smart parameter tuning on anytime algorithms(mby use statistical tests to help with time)

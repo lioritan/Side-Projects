@@ -1,6 +1,8 @@
 import avro.schema
 import json
 
+import fastavro
+
 SCHEMA = {
     "namespace": "big_obj",
     "type": "record",
@@ -21,12 +23,12 @@ SCHEMA = {
                         {"name": "last_mod", "type": ["null", "string"], "default": "null"}
                     ]
                 }}], "default": "null"},
-                {"name": "folders", "type": ["null",
-                                             {"type": "array", "items": "Folder"}], "default":"null"}
+                {"name": "folders", "type":
+                                             {"type": "array", "items": "Folder"}}
             ]}},
 
         {"name": "details", "type": "string"},
     ]
 }
 
-avro_schema = avro.schema.Parse(json.dumps(SCHEMA))
+avro_schema = fastavro.parse_schema(SCHEMA)
